@@ -8,7 +8,7 @@ import java.util.UUID
 
 @Entity
 @Table(name = "credits")
-data class Credit(
+class Credit(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = null,
